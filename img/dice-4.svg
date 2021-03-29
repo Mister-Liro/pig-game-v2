@@ -1,0 +1,11 @@
+<svg width="600" height="600" xmlns="http://www.w3.org/2000/svg">
+
+ <g>
+  <title>Layer 1</title>
+  <rect rx="20" id="svg_2" height="500.00003" width="500.00001" y="49.99999" x="50" opacity="undefined" fill="#ef4444"/>
+  <ellipse transform="rotate(45 193.93391418457028,193.93395996093753) " ry="49" rx="49" id="svg_7" cy="193.93394" cx="193.93392" opacity="undefined" stroke-opacity="null" stroke-dasharray="null" stroke-width="null" fill="#ffffff"/>
+  <ellipse transform="rotate(45 406.06607055664074,406.06607055664057) " ry="49" rx="49" id="svg_12" cy="406.06608" cx="406.0661" opacity="undefined" stroke-opacity="null" stroke-dasharray="null" stroke-width="null" fill="#ffffff"/>
+  <ellipse transform="rotate(-45 193.9339141845702,406.06607055664057) " ry="49" rx="49" id="svg_14" cy="406.06608" cx="193.93392" opacity="undefined" stroke-opacity="null" stroke-dasharray="null" stroke-width="null" fill="#ffffff"/>
+  <ellipse transform="rotate(-45 406.0660705566406,193.93392944335938) " ry="49" rx="49" id="svg_16" cy="193.93393" cx="406.06606" opacity="undefined" stroke-opacity="null" stroke-dasharray="null" stroke-width="null" fill="#ffffff"/>
+ </g>
+</svg>

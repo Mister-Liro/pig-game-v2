@@ -1,3 +1,31 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .player-section {
+        @apply w-full lg:w-1/2 h-full py-4 bg-gray-100 flex flex-col justify-center items-center;
+    }
+
+    .active {
+        @apply bg-red-200;
+    }
+
+    .new-game {
+        @apply absolute top-2 bg-gray-100 lg:top-20 uppercase text-sm md:text-xl font-light shadow-lg inline-flex items-center py-2 px-4 rounded-lg hover:bg-red-500 cursor-pointer hover:bg-opacity-90 transform hover:-translate-y-0.5 transition;
+
+        @apply absolute h-10 lg:ml-2 top-2 right-4  lg:right-auto bg-gray-100 lg:top-20 lg:left-1/2 uppercase text-sm md:text-xl font-light shadow-lg inline-flex items-center py-2 px-4 rounded-lg hover:bg-red-500 cursor-pointer hover:bg-opacity-90 transform hover:-translate-y-0.5 transition;
+    }
+
+    .read-rules {
+        @apply absolute h-10 lg:mr-2 top-2 left-4 lg:left-auto bg-gray-100 lg:top-20 lg:right-1/2 uppercase text-sm md:text-xl font-light shadow-lg inline-flex items-center py-2 px-4 rounded-lg hover:bg-blue-500 cursor-pointer hover:bg-opacity-90 transform hover:-translate-y-0.5 transition;
+    }
+
+    .save-score {
+        @apply absolute h-10 lg:ml-2 bottom-2 right-4  lg:right-auto bg-blue-500 lg:bottom-20 lg:left-1/2 uppercase text-sm md:text-xl font-light shadow-lg inline-flex items-center py-2 px-4 rounded-lg hover:bg-blue-400 cursor-pointer hover:bg-opacity-90 transform hover:-translate-y-0.5 transition;
+    }
+
+    .roll-dice {
+        @apply absolute h-10 lg:mr-2 bottom-2 left-4 lg:left-auto bg-red-500 lg:bottom-20 lg:right-1/2 uppercase text-sm md:text-xl font-light shadow-lg inline-flex items-center py-2 px-4 rounded-lg hover:bg-red-400 cursor-pointer hover:bg-opacity-90 transform hover:-translate-y-0.5 transition;
+    }
+}
