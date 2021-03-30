@@ -83,9 +83,10 @@ function init(){
     document.querySelector('.current-score-1').textContent = turnScore;
 
     // set active player to player 1
-    document.querySelector('#player-0').classList.remove('active');
-    document.querySelector('#player-1').classList.remove('active');
-    document.querySelector('#player-0').classList.add('active');
+    document.querySelector('#player-0').classList.remove('bg-red-200');
+    document.querySelector('#player-0').classList.add('bg-red-200');
+    document.querySelector('#player-1').classList.remove('bg-red-200');
+
 
     // reset text of player names
     document.querySelector('.player-1-name').textContent = 'Player 1';
@@ -109,8 +110,8 @@ function changePlayer() {
     // change of active player
     activePlayer = +!activePlayer;
     // reflect change of active player in UI
-    document.querySelector('#player-0').classList.toggle('active');
-    document.querySelector('#player-1').classList.toggle('active');
+    document.querySelector('#player-0').classList.toggle('bg-red-200');
+    document.querySelector('#player-1').classList.toggle('bg-red-200');
 }
 
 // new game
