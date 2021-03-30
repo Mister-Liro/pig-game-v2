@@ -25,7 +25,7 @@ document.querySelector('.roll-dice').addEventListener('click', function(){
         dice = Math.floor(Math.random() * 6) + 1;
 
         // modify the dice image
-        document.querySelector('#diceImg').src = '/img/dice-' + dice + '.svg';
+        document.querySelector('#diceImg').src = '/public/img/dice-' + dice + '.svg';
 
         // play dice audio
         document.querySelector('#dice-audio').play();
