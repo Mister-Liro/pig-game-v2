@@ -1,7 +1,12 @@
 // variable definitions
-let turnScore, globalScore, gameState, activePlayer;
+let turnScore, globalScore, gameState, activePlayer, winCounter = [0, 0];
 
 init();
+
+// winCounter UI init set
+document.querySelector('.win-count-1').textContent = winCounter[0];
+document.querySelector('.win-count-2').textContent = winCounter[1];
+
 
 // open rules modal
 document.querySelector('.read-rules').addEventListener('click', function() {
@@ -133,5 +138,11 @@ function winner(){
     document.querySelector('#dice').classList.add('hidden');
 
     gameState = false;
+
+    // update winCounter and update UI
+    winCounter[activePlayer] += 1;
+    document.querySelector('.win-count-1').textContent = winCounter[0];
+    document.querySelector('.win-count-2').textContent = winCounter[1];
+
 
 }
